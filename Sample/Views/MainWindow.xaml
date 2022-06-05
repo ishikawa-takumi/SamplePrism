@@ -1,0 +1,12 @@
+﻿<Window x:Class="Sample.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525" >
+    <Grid>
+        <StackPanel>
+            <Button Command="{Binding ClickCommand}" Height="50" Width="100" Content="Click Here" Margin="0,0,0,10" Click=""/>
+        </StackPanel>
+    </Grid>
+</Window>
